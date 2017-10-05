@@ -90,7 +90,7 @@ hr {
     width: 263px;
     -webkit-appearance: none;
     border: 1px solid transparent;
-    border-radius: 0;
+    border-radius: 4px;
     transition: background-color 0.25s ease-out, color 0.25s ease-out;
     font-size: 0.9rem;
     line-height: 1;
@@ -109,7 +109,7 @@ hr {
     width: 263px;
     -webkit-appearance: none;
     border: 1px solid transparent;
-    border-radius: 0;
+    border-radius: 4px;
     transition: background-color 0.25s ease-out, color 0.25s ease-out;
     font-size: 0.9rem;
     line-height: 1;
@@ -188,4 +188,79 @@ hr {
     letter-spacing: 2px;
     font-weight: bold;
     text-transform: uppercase;
+}
+#portfolio ul {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+    margin: 0 auto;
+}
+#portfolio li {
+    font-size: inherit;
+    list-style: none;
+    display: -webkit-inline-box;
+    background: #ebc985;
+    border-radius: 4px;
+    padding: 8px 11px;
+    margin-bottom: 71px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 4px;
+    margin-right: 11px;
+    color: #393939;
+    transition: all 0.5s;
+}
+#portfolio li:hover{
+  background: white;
+}
+#portfolio li a {
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    color: #393939;
+}
+#portfolio h2 {
+    color: #3c4761;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#portfolio .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #17c2a4;
+    color: #fefefe;
+    transition: all 0.8s;
+}
+#portfolio .button:hover {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1aa58c;
+    color: #fefefe;
 }
