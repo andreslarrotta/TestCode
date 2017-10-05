@@ -4,3 +4,176 @@ body{
 h1,h2,h3,h4,h5,h6,p{
   font-family: 'Titillium Web', sans-serif;
 }
+header{
+    background: #87509c;
+}
+hr {
+    clear: both;
+    max-width: 5rem;
+    height: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.21);
+    border-left: 0;
+}
+.top-bar, .top-bar ul {
+    background-color: #87509c;
+}
+.dropdown.menu a {
+    padding: 0.7rem 1rem;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.dropdown.menu a:hover {
+      background: #643a79;
+}
+.container_sections{
+    width: 100%;
+    padding: 73px;
+    padding-top: 100px;
+    padding-bottom: 143px;
+    text-align: center;
+}
+.h1ligtht{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+.h1dark{
+    color: #3c4761;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+.plight{
+  color: white;
+}
+.pdark{
+  color: #3c4761;
+}
+#welcome {
+    background: #87509c;
+}
+#services{
+    background: #17c2a4;
+}
+#team{
+  background: #e7f1f8;
+}
+#skills{
+  background: #ffffff;
+}
+#portfolio{
+  background: #ffdd99;
+}
+#testimonials{
+  background: #d74680;
+}
+#contact{
+  background: #3c5499;
+}
+#welcome p{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#welcome .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #eb7d4b;
+    color: #fefefe;
+    transition: all 0.8s;
+}
+#welcome .button:hover {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d26f42;
+    color: #fefefe;
+}
+#services .servicesicons {
+    margin-top: 3rem;
+}
+#services p{
+    color: white;
+}
+#service .cell{
+    padding: 30px;
+}
+#services h2 {
+    color: white;
+    font-size: 1.3rem;
+    margin: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#team h2 {
+    color: #3c4761;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#team h3{
+    color: #48c1e9;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#team p {
+    color: #535e75;
+    padding: 0 20px 0 20px;
+}
+#team li {
+    font-size: inherit;
+    list-style: none;
+    display: -webkit-inline-box;
+}
+#team ul {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+    margin: 0 auto;
+}
+#team .teamicons {
+    margin-top: 3rem;
+}
+#team .brandicons i {
+    background: #bdd1df;
+    color: white;
+    width: 34px;
+    height: 34px;
+    padding: 9px 9px;
+    border-radius: 50%;
+    list-style: none;
+}
