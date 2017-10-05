@@ -177,3 +177,15 @@ hr {
     border-radius: 50%;
     list-style: none;
 }
+#skills .skillsicons{
+    margin-top: 3rem;
+}
+#skills h2 {
+    color: #3c4761;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
