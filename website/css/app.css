@@ -412,3 +412,102 @@ footer h3:hover {
     text-align: center;
     padding: 28px;
 }
+@media only screen and (max-width: 768px) {
+  .container_sections {
+    width: 100%;
+    padding: 73px;
+    padding-top: 100px;
+    padding-bottom: 93px;
+    text-align: center;
+}
+#welcome p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#team img{
+    width: 100px;
+}
+#team p {
+    color: #535e75;
+    padding: 0 20px 20px 20px;
+    font-size: 0.8rem;
+}
+#team ul {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+}
+@media only screen and (max-width: 425px) {
+  .container_sections {
+    width: 100%;
+    padding: 24px;
+    padding-top: 46px;
+    padding-bottom: 93px;
+    text-align: center;
+}
+#welcome p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.top-bar lu li {
+    font-size: 15px;
+    margin: 0;
+}
+.testimonials_content {
+    margin-bottom: 30px;
+}
+#skills h2 {
+    color: #3c4761;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 44px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#portfolio h2 {
+    color: #3c4761;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#testimonials .text_testimonials p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+#testimonials h2 {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+#testimonials h3 {
+    color: #ffdd99;
+    font-size: 1rem;
+    margin-top: -9px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.5s;
+}
+}
