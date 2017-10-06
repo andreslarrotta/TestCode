@@ -26,6 +26,7 @@ hr {
     color: white;
     text-transform: uppercase;
     transition: all 0.5s;
+    border-radius: 5px;
 }
 .dropdown.menu a:hover {
       background: #643a79;
@@ -171,7 +172,18 @@ hr {
     margin-top: 3rem;
 }
 #team .brandicons i {
+  cursor: pointer;
     background: #bdd1df;
+    color: white;
+    width: 34px;
+    height: 34px;
+    padding: 9px 9px;
+    border-radius: 50%;
+    list-style: none;
+    transition: all 0.5s;
+}
+#team .brandicons i:hover {
+    background: #3c4761;
     color: white;
     width: 34px;
     height: 34px;
@@ -288,6 +300,7 @@ hr {
     text-align: left;
     font-style: italic;
     margin-bottom: 16px;
+    letter-spacing: 1px;
 }
 #testimonials h3 {
     color: #ffdd99;
@@ -296,7 +309,6 @@ hr {
     margin-bottom: 20px;
     letter-spacing: 1px;
     text-align: left;
-    font-weight: bold;
 }
 #contact p {
     margin-bottom: 74px;
