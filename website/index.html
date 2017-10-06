@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="img/icon.png" />
-  </head>
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+    <!-- estilos y javacript circules -->
+    <link rel="stylesheet" href="css/progressbar.css">
+      </head>
   <body>
 <header>
   <div class="grid-container">
@@ -108,9 +110,7 @@
       <div class="large-12 cell">
         <h1 class="h1dark">MEET OUR BEAUTIFUL TEAM</h1>
         <hr>
-        <p>We are a small team of designers and developers, who help brands with big ideas.
-
-        </p>
+        <p>We are a small team of designers and developers, who help brands with big ideas.</p>
       </div>
       <div class="medium-12 large-12 cell">
       <div class="teamicons grid-x grid-padding-x grid-margin-x small-up-12 medium-up-2 large-up-4">
@@ -183,21 +183,29 @@
         </p>
       </div>
       <div class="medium-12 large-12 cell">
-      <div class="skillsicons grid-x grid-padding-x grid-margin-x small-up-12 medium-up-2 large-up-4">
+      <div class="skillsicons circles grid-x grid-padding-x grid-margin-x small-up-12 medium-up-2 large-up-4">
         <div class="cell">
-          <img src="img/90.png" alt="">
-          <h2>Web Design</h2>
+          <div class="first circle">
+            <strong></strong>
+          </div>
+        <h2>Web Design</h2>
         </div>
         <div class="cell">
-          <img src="img/75.png" alt="">
+          <div class="second circle">
+          <strong></strong>
+          </div>
           <h2>html / css</h2>
         </div>
         <div class="cell">
-          <img src="img/70.png" alt="">
+          <div class="third circle">
+          <strong></strong>
+          </div>
           <h2>graphic design</h2>
         </div>
         <div class="cell">
-          <img src="img/85.png" alt="">
+          <div class="forth circle">
+          <strong></strong>
+          </div>
           <h2>UI / UX</h2>
         </div>
       </div>
@@ -385,5 +393,8 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+    <script src="js/progressbar.js"></script>
   </body>
 </html>

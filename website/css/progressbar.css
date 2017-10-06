@@ -1,0 +1,40 @@
+.circles {
+  margin-bottom: -10px;
+}
+
+.circle {
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+  transform: rotate(90deg);
+}
+
+.circle canvas {
+  vertical-align: top;
+}
+
+.circle strong {
+    position: absolute;
+    top: 53px;
+    left: 3px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 3rem;
+    font-weight: 100;
+    transform: rotate(-90deg);
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
