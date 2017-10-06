@@ -70,11 +70,13 @@ hr {
 #portfolio{
   background: #ffdd99;
 }
-#testimonials{
-  background: #d74680;
+#testimonials {
+    background: #d74680;
+    padding-bottom: 25px;
 }
-#contact{
-  background: #3c5499;
+#contact {
+    background: #3c5499;
+    padding-bottom: 64px;
 }
 #welcome p{
     color: white;
@@ -247,6 +249,118 @@ hr {
     transition: all 0.8s;
 }
 #portfolio .button:hover {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1aa58c;
+    color: #fefefe;
+}
+#testimonials img{
+  display: inline;
+}
+#testimonials p {
+    text-align: center;
+    margin-bottom: 54px;
+}
+#testimonials h2 {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+.testimonials_content{
+  margin-bottom: 80px;
+}
+#testimonials .text_testimonials p {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+#testimonials h3 {
+    color: #ffdd99;
+    font-size: 1rem;
+    margin-top: -9px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: bold;
+}
+#contact p {
+    margin-bottom: 74px;
+}
+#contact [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color']{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    border: 1px solid #273a71;
+    border-radius: 4px;
+    background-color: #273a71;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#contact textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10.4375rem;
+    margin: 0 0 4rem;
+    padding: 0.5rem;
+    border: 1px solid #273a71;
+    border-radius: 4px;
+    background-color: #273a71;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#contact .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-family: inherit;
+    padding: 20px 8px 20px;
+    width: 263px;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #30bae7;
+    color: #fefefe;
+    transition: all 0.8s;
+}
+#contact .button:hover {
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
